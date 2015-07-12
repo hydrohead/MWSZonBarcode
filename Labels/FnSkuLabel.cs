@@ -59,7 +59,7 @@ namespace ZonBarcode
                 dpiY = (int)g.DpiY;
             }
 
-            Bitmap b = new Bitmap((int)Width * dpiX, (int)Height * dpiY);
+            Bitmap b = new Bitmap((int)Width * dpiX*3, (int)Height * dpiY*3);
             
              int barcodeHeight = 100;
              using (Graphics gfx = Graphics.FromImage(b))

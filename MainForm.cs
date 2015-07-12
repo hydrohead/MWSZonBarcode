@@ -159,17 +159,7 @@ namespace ZonBarcode
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-              listBox1.DataSource = DataStore.Labels;
-            listBox1.DisplayMember = "displayVal";
-            listBox1.ValueMember = "ASIN";
-
-            DataStore.Labels.RemoveAt(0);
-            DataStore.Labels.RemoveAt(0);
-            DataStore.Labels.RemoveAt(0);
-
-        }
+      
 
         
 
